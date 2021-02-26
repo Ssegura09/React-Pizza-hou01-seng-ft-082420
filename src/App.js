@@ -9,7 +9,7 @@ class App extends Component {
         <Header />
         <PizzaForm />
         <PizzaList />
-        <PizzaIng />
+        <PizzaIng name={test} />
       </Fragment>
     );
   }
